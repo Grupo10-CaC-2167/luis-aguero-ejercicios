@@ -4,7 +4,7 @@ from src.utils import *
 palabra1 = "hola como estas"
 replacespace(palabra1)
 print(palabra1)
-print (replacespace(palabra))
+print (replacespace(palabra1))
 
 #Ejercicio 2
 palabra2 = "hOLA mUNDO"
