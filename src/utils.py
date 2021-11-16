@@ -6,3 +6,9 @@ def replacespace (string):
 #Ejercico 2
 def changeMayus (word):
     return word.swapcase()
+
+#Ejercico 3
+
+#Ejercico 4
+
+#Ejercico 5
