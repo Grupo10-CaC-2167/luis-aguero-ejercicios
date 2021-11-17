@@ -16,7 +16,10 @@ print(changeMayus(palabra2))
 
 
 #Ejercicio 4
-
+palabra4 = input("Ingrese una palabra: ")
+primeraMayus(palabra4)
+print(palabra4)
+print(primeraMayus(palabra4))
 
 #Ejercicio 5
 

@@ -10,5 +10,6 @@ def changeMayus (word):
 #Ejercico 3
 
 #Ejercico 4
-
+def primeraMayus (string1):
+    return string1.title()
 #Ejercico 5
