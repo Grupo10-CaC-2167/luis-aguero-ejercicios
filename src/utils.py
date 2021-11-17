@@ -13,3 +13,12 @@ def changeMayus (word):
 def primeraMayus (string1):
     return string1.title()
 #Ejercico 5
+def subcampeon (n):
+    lista = []
+    for x in range(n):
+        nota=int(input("Ingrese la nota "+str(x+1)+": "))
+        lista.append(nota)
+        lista.sort()
+    print(lista)
+    print("La segunda nota mas alta es: ", lista[-2])
+    return
