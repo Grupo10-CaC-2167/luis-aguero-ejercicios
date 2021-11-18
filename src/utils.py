@@ -8,10 +8,15 @@ def changeMayus (word):
     return word.swapcase()
 
 #Ejercico 3
+def modificateString (word1,ind,letra):
+    wordList = list(word1)
+    wordList[ind-1] = letra
+    return "".join(wordList)
 
 #Ejercico 4
 def primeraMayus (string1):
     return string1.title()
+
 #Ejercico 5
 def subcampeon (n):
     lista = []
