@@ -32,3 +32,8 @@ print(primeraMayus(palabra4))
 numeroNotas = int(input("Ingrese cuantas notas va a cargar: "))
 subcampeon(numeroNotas)
 
+#Extra a
+n = int(input("Introduce un numero: "))
+triangulo(n)
+
+#Extra b

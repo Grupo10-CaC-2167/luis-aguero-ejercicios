@@ -27,3 +27,10 @@ def subcampeon (n):
     print(lista)
     print("La segunda nota mas alta es: ", lista[-2])
     return
+
+#Extra a
+def triangulo(n):
+    for i in range(n):
+        print(str(i+1)*(i+1))
+
+#Extra b
