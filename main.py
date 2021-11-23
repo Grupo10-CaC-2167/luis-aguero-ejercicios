@@ -37,3 +37,5 @@ n = int(input("Introduce un numero: "))
 triangulo(n)
 
 #Extra b
+s = str(input("Introduce una palabra: "))
+contador(s)

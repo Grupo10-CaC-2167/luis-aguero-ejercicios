@@ -1,3 +1,5 @@
+from collections import Counter
+
 #Ejercicio 1
 def replacespace (string):
 
@@ -34,3 +36,6 @@ def triangulo(n):
         print(str(i+1)*(i+1))
 
 #Extra b
+def contador(s):
+    letrasComunes=Counter(s).most_common(3)
+    print(letrasComunes)
