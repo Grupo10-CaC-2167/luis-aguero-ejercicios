@@ -61,7 +61,28 @@ class Vectores:
     
 
 #Ejercicio 3
+class Matrices:
+    def __init__(self, mat1, mat2):
+        self.mat1 = mat1
+        self.mat2 = mat2
+        self.sumarM()
+        self.restarM()
+        self.multiplicarM()
+    
+    def sumarM (self):
+        sumamat=self.mat1 + self.mat2
+        print("El resultado de la suma es: ",sumamat)
+        return sumamat
+    
+    def restarM (self):
+        restamat=self.mat1 - self.mat2
+        print("El resultado de la resta es: ",restamat)
+        return restamat
 
+    def multiplicarM (self):
+        multiplicacionmat=self.mat1 * self.mat2
+        print("El resultado de la multiplicacion es: ",multiplicacionmat)
+        return multiplicacionmat
 #Ejercicio 4
 
 #Ejercicio 5

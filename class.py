@@ -10,7 +10,9 @@ np_list1 = np.array([3,2,1])
 np_list2 = np.array([3,2,1])
 operacVectores= Vectores(np_list1,np_list2)
 #Ejercicio 3
-
+np_matriz1 = np.array([[3,2,1],[3,2,1],[3,2,1]])
+np_matriz2 = np.array([[3,2,1],[3,2,1],[3,2,1]])
+operacVectores= Matrices(np_matriz1,np_matriz2)
 #Ejercicio 4
 
 #Ejercicio 5
