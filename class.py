@@ -1,15 +1,14 @@
 from src.utilsClass import *
 
 #Ejercicio 1
-complejo1 = numComplejo(2,3)
-complejo2 = numComplejo(5,2)
-totalI = complejo1.numI + complejo2.numI
-totalJ = complejo1.numJ + complejo2.numJ
-print("El primer numero es: ", complejo1.numI,"i +", complejo1.numJ,"j")
-print("El segundo numero es: ", complejo2.numI,"i +", complejo2.numJ,"j")
-print("El numero total es: ", totalI,"i +", totalJ, "j")
-#Ejercicio 2
+compl1 = 2+3j 
+compl2 = 5+2j
+numerocompl= numComplejo(compl1,compl2)
 
+#Ejercicio 2
+np_list1 = np.array([3,2,1])
+np_list2 = np.array([3,2,1])
+operacVectores= Vectores(np_list1,np_list2)
 #Ejercicio 3
 
 #Ejercicio 4
